@@ -1,7 +1,15 @@
-# .gitignore
+# Node.js dependencies
 node_modules/
+
+# Environment files
 .env
-dist/
-npm-debug.log
+
+# Log files
+*.log
+
+# Multer upload folder (opsional)
+uploads/
+
+# System files
 .DS_Store
-.vscode/
+Thumbs.db
